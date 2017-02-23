@@ -1,4 +1,4 @@
-package org.music.boundary;
+package org.music;
 
 import com.google.gson.Gson;
 import okhttp3.OkHttpClient;

@@ -3,7 +3,6 @@ package org.music;
 import io.specto.hoverfly.junit.rule.HoverflyRule;
 import org.junit.ClassRule;
 import org.junit.Test;
-import org.music.boundary.ComposersGateway;
 import org.music.entity.Composer;
 
 import java.io.IOException;
