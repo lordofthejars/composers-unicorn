@@ -1,0 +1,38 @@
+{
+  "data" : {
+    "pairs" : [ {
+      "request" : {
+        "path" : "/Ludwig van Beethoven",
+        "method" : "GET",
+        "destination" : "192.168.99.100:8081",
+        "scheme" : "http",
+        "query" : "",
+        "body" : "",
+        "headers" : {
+          "Accept-Encoding" : [ "gzip" ],
+          "Connection" : [ "Keep-Alive" ],
+          "User-Agent" : [ "okhttp/3.6.0" ]
+        },
+        "requestType" : "recording"
+      },
+      "response" : {
+        "status" : 200,
+        "body" : "{\"name\":\"Ludwig van Beethoven\",\"era\":\"ROMANTIC\",\"birthdate\":{\"year\":1770,\"month\":\"DECEMBER\",\"dayOfYear\":351,\"leapYear\":false,\"dayOfMonth\":17,\"dayOfWeek\":\"MONDAY\",\"era\":\"CE\",\"monthValue\":12,\"chronology\":{\"calendarType\":\"iso8601\",\"id\":\"ISO\"}},\"died\":{\"year\":1827,\"month\":\"MARCH\",\"dayOfYear\":85,\"leapYear\":false,\"dayOfMonth\":26,\"dayOfWeek\":\"MONDAY\",\"era\":\"CE\",\"monthValue\":3,\"chronology\":{\"calendarType\":\"iso8601\",\"id\":\"ISO\"}},\"operas\":[{\"name\":\"Fidelio\",\"librettist\":\"Georg Friedrich Treitschke\",\"language\":\"GERMAN\",\"roles\":[\"Rocco\",\"Leonore\",\"Florestan\"]}]}",
+        "encodedBody" : false,
+        "headers" : {
+          "Connection" : [ "keep-alive" ],
+          "Content-Length" : [ "556" ],
+          "Content-Type" : [ "application/json" ],
+          "Date" : [ "Thu, 23 Feb 2017 10:32:46 GMT" ],
+          "Hoverfly" : [ "Was-Here" ]
+        }
+      }
+    } ],
+    "globalActions" : {
+      "delays" : [ ]
+    }
+  },
+  "meta" : {
+    "schemaVersion" : "v1"
+  }
+}
