@@ -34,6 +34,7 @@ public class AssertJComposersTest {
 
         // Then:
         assertThat(mozart.getName()).isEqualTo("Wolfgang Amadeus Mozart");
+        assertThat(mozart).returns("Wolfgang Amadeus Mozart", Composer::getName);
         assertThat(mozart.getEra()).isEqualTo(Era.CLASSICAL);
         assertThat(mozart.getBirthdate()).isEqualTo(LocalDate.of(1756, 1, 27));
         assertThat(mozart.getDied()).isEqualTo(LocalDate.of(1791, 12, 5));
